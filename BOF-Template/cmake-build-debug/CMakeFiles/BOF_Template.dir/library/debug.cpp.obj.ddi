@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "CMakeFiles\\BOF_Template.dir\\library\\debug.cpp.obj",
+            "outputs": [
+                "C:\\Users\\0xtriboulet\\Desktop\\MalDev\\6.SleepyTime\\sleepmask-clion\\BOF-Template\\cmake-build-debug\\vc140.pdb",
+                "CMakeFiles\\BOF_Template.dir\\library\\debug.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}

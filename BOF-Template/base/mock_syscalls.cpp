@@ -6,7 +6,7 @@ extern "C" {
 #undef DECLSPEC_IMPORT
 #define DECLSPEC_IMPORT
 #endif
-#include "..\beacon.h"
+#include "beacon.h"
 }
 
 namespace bof {
@@ -154,6 +154,7 @@ namespace bof {
                 RESOLVE_ENTRY(syscalls->ntWriteFile, "NtWriteFile");
                 RESOLVE_ENTRY(syscalls->ntCreateFile, "NtCreateFile");
             }
+
 
             /**
              * A function to resolve the RTL function address.

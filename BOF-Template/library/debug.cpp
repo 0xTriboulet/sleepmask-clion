@@ -1,9 +1,9 @@
 #include <windows.h>
 
-#include "../beacon.h"
-#include "../base/helpers.h"
-#include "../debug.h"
-#include "../sleepmask.h"
+#include "beacon.h"
+#include "helpers.h"
+#include "debug.h"
+#include "sleepmask.h"
 
 /**
 * A helper function to display the contents of the SLEEPMASK_INFO structure

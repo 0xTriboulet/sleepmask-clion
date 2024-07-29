@@ -1,7 +1,7 @@
 #include <windows.h>
 
-#include "base\helpers.h"
-#include "sleepmask.h"
+#include "include/helpers.h"
+#include "include/sleepmask.h"
 /**
  * For the debug build we want:
  *   a) Include the mock-up layer
@@ -11,14 +11,16 @@
 #ifdef _DEBUG
 #undef DECLSPEC_IMPORT
 #define DECLSPEC_IMPORT
-#include "base\mock.h"
+#include "mock.h"
 #endif
 
 extern "C" {
 #include "beacon.h"
 #include "beacon_gate.h"
-
 #include "sleepmask-vs.h"
+#include "exec_ntapi.h"
+#include "set_ntapi.h"
+
 #include "library\debug.cpp"
 #include "library\utils.cpp"
 #include "library\stdlib.cpp"
@@ -26,6 +28,9 @@ extern "C" {
 #include "library\masking.cpp"
 #include "library\pivot.cpp"
 #include "library\gate.cpp"
+#include "base\mock_syscalls.cpp"
+
+
 
     /**
     * Sleepmask-VS entry point
@@ -62,7 +67,7 @@ int main(int argc, char* argv[]) {
         },
         {
             .sleepTimeMs = 5000,
-            .runForever = true,
+            .runForever = false,
         }
     );
 
@@ -71,7 +76,7 @@ int main(int argc, char* argv[]) {
     * 
     * Note: The GateArg() Macro ensures arguments are the correct size for the architecture
     */  
-    /*
+    
     FUNCTION_CALL functionCall = bof::mock::createFunctionCallStructure(
         VirtualAlloc, // Function Pointer
         WinApi::VIRTUALALLOC, // Human Readable WinApi Enum
@@ -83,6 +88,8 @@ int main(int argc, char* argv[]) {
         GateArg(PAGE_EXECUTE_READWRITE) // VirtualAlloc Arg4
     );
 
+
+
     // Run BeaconGate
     bof::runMockedBeaconGate(sleep_mask, &functionCall,
         {
@@ -92,9 +99,29 @@ int main(int argc, char* argv[]) {
             .module = "",
         });
 
+    printf("functionCall.retValue: 0x%llx\n",(UINT_PTR) functionCall.retValue);
+
+    SYSCALL_API VxSyscallTable = { 0x0 };
+
+    bof::mock::syscall::ResolveSyscalls(&VxSyscallTable);
+
+    printf("NtAllocateVirtualMemory Addr        :  0x%llx\n", (UINT_PTR) VxSyscallTable.ntAllocateVirtualMemory.fnAddr);
+    printf("NtAllocateVirtualMemory Syscall Num :  0x%llx\n", (UINT_PTR) VxSyscallTable.ntAllocateVirtualMemory.sysnum);
+    printf("NtAllocateVirtualMemory Jump Addr   :  0x%llx\n", (UINT_PTR) VxSyscallTable.ntAllocateVirtualMemory.jmpAddr);
+
+    PVOID new_alloc = NULL;
+    SIZE_T alloc_size = 0x1000;
+
+    SetNtApiAddr(VxSyscallTable.ntAllocateVirtualMemory.fnAddr);
+    ExecNtApi((HANDLE)-1, &new_alloc, NULL, &alloc_size, MEM_COMMIT | MEM_RESERVE, PAGE_EXECUTE_READWRITE);
+
+    printf("ExecNtApi Allocation: 0x%p\n", new_alloc);
+
     // Free the memory allocated by BeaconGate
     VirtualFree((LPVOID)functionCall.retValue, 0, MEM_RELEASE);
-    */
+    
+    getchar();
+
     return 0;
 }
 

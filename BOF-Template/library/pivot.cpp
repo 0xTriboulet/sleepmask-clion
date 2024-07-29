@@ -1,10 +1,10 @@
 #include <windows.h>
 
-#include "../beacon.h"
-#include "../base/helpers.h"
-#include "../sleepmask.h"
-#include "../sleepmask-vs.h"
-#include "../debug.h"
+#include "beacon.h"
+#include "helpers.h"
+#include "sleepmask.h"
+#include "sleepmask-vs.h"
+#include "debug.h"
 
 /**
 * SMB/TCP Beacon sleep

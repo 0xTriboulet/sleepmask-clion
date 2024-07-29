@@ -28,7 +28,7 @@ BOOL _memcpy(void* dest, void* src, size_t size) {
 * @param size the number of bytes to copy
 */
 void* _memset(void* ptr, int byte, size_t size) {
-    for (int i = 0; i < size; i++) {
+    for (unsigned int i = 0; i < size; i++) {
         ((char*)ptr)[i] = byte;
     }
     return ptr;

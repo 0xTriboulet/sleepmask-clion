@@ -1,10 +1,10 @@
 #include <windows.h>
 
-#include "../beacon.h"
-#include "../base/helpers.h"
-#include "../debug.h"
-#include "../sleepmask.h"
-#include "../sleepmask-vs.h"
+#include "beacon.h"
+#include "helpers.h"
+#include "debug.h"
+#include "sleepmask.h"
+#include "sleepmask-vs.h"
 
 /**
 * A wrapper around the default Sleep/PivotSleep to simplify the Sleepmask-VS entry point

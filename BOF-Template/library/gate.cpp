@@ -1,9 +1,9 @@
 #include <windows.h>
 
-#include "../beacon_gate.h"
-#include "../debug.h"
-#include "../sleepmask.h"
-#include "../sleepmask-vs.h"
+#include "beacon_gate.h"
+#include "debug.h"
+#include "sleepmask.h"
+#include "sleepmask-vs.h"
 
 /**
 * A wrapper around BeaconGate to handle masking/unmasking Beacon

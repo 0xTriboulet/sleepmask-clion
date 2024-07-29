@@ -14,7 +14,7 @@ extern "C" {
 #undef DECLSPEC_IMPORT
 #define DECLSPEC_IMPORT
 #endif
-#include "..\beacon.h"
+#include "beacon.h"
 }
 
 #include "mock.h"
