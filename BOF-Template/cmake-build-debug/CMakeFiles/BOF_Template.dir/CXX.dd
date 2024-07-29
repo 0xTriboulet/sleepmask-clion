@@ -7,9 +7,9 @@ build CMakeFiles\BOF_Template.dir\library\pivot.cpp.obj: dyndep
 
 build CMakeFiles\BOF_Template.dir\library\sleep.cpp.obj: dyndep
 
-build CMakeFiles\BOF_Template.dir\library\stdlib.cpp.obj: dyndep
-
 build CMakeFiles\BOF_Template.dir\library\utils.cpp.obj: dyndep
+
+build CMakeFiles\BOF_Template.dir\library\stdlib.cpp.obj: dyndep
 
 build CMakeFiles\BOF_Template.dir\sleepmask.cpp.obj: dyndep
 

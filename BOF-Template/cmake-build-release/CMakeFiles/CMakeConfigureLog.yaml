@@ -39,7 +39,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
       
       The C compiler identification is MSVC, found in:
-        C:/Users/0xtriboulet/Desktop/MalDev/6.SleepyTime/sleepmask-clion/BOF-Template/cmake-build-release/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.exe
+        C:/Users/0xtriboulet/Desktop/MalDev/6.SleepyTime/git/sleepmask-clion/BOF-Template/cmake-build-release/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.exe
       
   -
     kind: "message-v1"
@@ -51,7 +51,7 @@ events:
     message: |
       Detecting C compiler /showIncludes prefix:
         main.c
-        Note: including file: C:\\Users\\0xtriboulet\\Desktop\\MalDev\\6.SleepyTime\\sleepmask-clion\\BOF-Template\\cmake-build-release\\CMakeFiles\\ShowIncludes\\foo.h
+        Note: including file: C:\\Users\\0xtriboulet\\Desktop\\MalDev\\6.SleepyTime\\git\\sleepmask-clion\\BOF-Template\\cmake-build-release\\CMakeFiles\\ShowIncludes\\foo.h
         
       Found prefix "Note: including file: "
   -
@@ -85,7 +85,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/0xtriboulet/Desktop/MalDev/6.SleepyTime/sleepmask-clion/BOF-Template/cmake-build-release/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.exe
+        C:/Users/0xtriboulet/Desktop/MalDev/6.SleepyTime/git/sleepmask-clion/BOF-Template/cmake-build-release/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.exe
       
   -
     kind: "message-v1"
@@ -97,7 +97,7 @@ events:
     message: |
       Detecting CXX compiler /showIncludes prefix:
         main.c
-        Note: including file: C:\\Users\\0xtriboulet\\Desktop\\MalDev\\6.SleepyTime\\sleepmask-clion\\BOF-Template\\cmake-build-release\\CMakeFiles\\ShowIncludes\\foo.h
+        Note: including file: C:\\Users\\0xtriboulet\\Desktop\\MalDev\\6.SleepyTime\\git\\sleepmask-clion\\BOF-Template\\cmake-build-release\\CMakeFiles\\ShowIncludes\\foo.h
         
       Found prefix "Note: including file: "
   -
@@ -109,8 +109,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/0xtriboulet/Desktop/MalDev/6.SleepyTime/sleepmask-clion/BOF-Template/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-sgl14e"
-      binary: "C:/Users/0xtriboulet/Desktop/MalDev/6.SleepyTime/sleepmask-clion/BOF-Template/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-sgl14e"
+      source: "C:/Users/0xtriboulet/Desktop/MalDev/6.SleepyTime/git/sleepmask-clion/BOF-Template/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-8mwnwu"
+      binary: "C:/Users/0xtriboulet/Desktop/MalDev/6.SleepyTime/git/sleepmask-clion/BOF-Template/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-8mwnwu"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -119,11 +119,11 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/0xtriboulet/Desktop/MalDev/6.SleepyTime/sleepmask-clion/BOF-Template/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-sgl14e'
+        Change Dir: 'C:/Users/0xtriboulet/Desktop/MalDev/6.SleepyTime/git/sleepmask-clion/BOF-Template/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-8mwnwu'
         
-        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.1.2/bin/ninja/win/x64/ninja.exe" -v cmTC_82fae
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_82fae.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_82fae.dir\\ /FS -c "C:\\Program Files\\JetBrains\\CLion 2023.1.2\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.1.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_82fae.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_82fae.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_82fae.exe /implib:cmTC_82fae.lib /pdb:cmTC_82fae.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.1.2/bin/ninja/win/x64/ninja.exe" -v cmTC_e830e
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_e830e.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_e830e.dir\\ /FS -c "C:\\Program Files\\JetBrains\\CLion 2023.1.2\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.1.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_e830e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e830e.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_e830e.exe /implib:cmTC_e830e.lib /pdb:cmTC_e830e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -135,8 +135,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/0xtriboulet/Desktop/MalDev/6.SleepyTime/sleepmask-clion/BOF-Template/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-ditavs"
-      binary: "C:/Users/0xtriboulet/Desktop/MalDev/6.SleepyTime/sleepmask-clion/BOF-Template/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-ditavs"
+      source: "C:/Users/0xtriboulet/Desktop/MalDev/6.SleepyTime/git/sleepmask-clion/BOF-Template/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-m270ba"
+      binary: "C:/Users/0xtriboulet/Desktop/MalDev/6.SleepyTime/git/sleepmask-clion/BOF-Template/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-m270ba"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -145,11 +145,11 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/0xtriboulet/Desktop/MalDev/6.SleepyTime/sleepmask-clion/BOF-Template/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-ditavs'
+        Change Dir: 'C:/Users/0xtriboulet/Desktop/MalDev/6.SleepyTime/git/sleepmask-clion/BOF-Template/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-m270ba'
         
-        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.1.2/bin/ninja/win/x64/ninja.exe" -v cmTC_ff8b1
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_ff8b1.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_ff8b1.dir\\ /FS -c "C:\\Program Files\\JetBrains\\CLion 2023.1.2\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.1.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ff8b1.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ff8b1.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_ff8b1.exe /implib:cmTC_ff8b1.lib /pdb:cmTC_ff8b1.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.1.2/bin/ninja/win/x64/ninja.exe" -v cmTC_7729a
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_7729a.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_7729a.dir\\ /FS -c "C:\\Program Files\\JetBrains\\CLion 2023.1.2\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.1.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_7729a.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_7729a.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_7729a.exe /implib:cmTC_7729a.lib /pdb:cmTC_7729a.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
 ...

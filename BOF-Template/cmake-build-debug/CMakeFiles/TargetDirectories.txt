@@ -1,3 +1,3 @@
-C:/Users/0xtriboulet/Desktop/MalDev/6.SleepyTime/sleepmask-clion/BOF-Template/cmake-build-debug/CMakeFiles/BOF_Template.dir
-C:/Users/0xtriboulet/Desktop/MalDev/6.SleepyTime/sleepmask-clion/BOF-Template/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/0xtriboulet/Desktop/MalDev/6.SleepyTime/sleepmask-clion/BOF-Template/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/0xtriboulet/Desktop/MalDev/6.SleepyTime/git/sleepmask-clion/BOF-Template/cmake-build-debug/CMakeFiles/BOF_Template.dir
+C:/Users/0xtriboulet/Desktop/MalDev/6.SleepyTime/git/sleepmask-clion/BOF-Template/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/0xtriboulet/Desktop/MalDev/6.SleepyTime/git/sleepmask-clion/BOF-Template/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -128,15 +128,15 @@
 			[
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/0xtriboulet/Desktop/MalDev/6.SleepyTime/sleepmask-clion/BOF-Template/include"
+					"path" : "C:/Users/0xtriboulet/Desktop/MalDev/6.SleepyTime/git/sleepmask-clion/BOF-Template/include"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "C:/Users/0xtriboulet/Desktop/MalDev/6.SleepyTime/sleepmask-clion/BOF-Template"
+					"path" : "C:/Users/0xtriboulet/Desktop/MalDev/6.SleepyTime/git/sleepmask-clion/BOF-Template"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/0xtriboulet/Desktop/MalDev/6.SleepyTime/sleepmask-clion/BOF-Template/."
+					"path" : "C:/Users/0xtriboulet/Desktop/MalDev/6.SleepyTime/git/sleepmask-clion/BOF-Template/."
 				}
 			],
 			"language" : "CXX",

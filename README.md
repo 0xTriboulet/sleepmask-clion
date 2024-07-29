@@ -1,6 +1,6 @@
 # Sleepmask-Clion
 
-A slight rework of the build system for Sleepmask-VS, compatible with CLion via CMake.
+A slight rework of the build system for Sleepmask-VS, compatible with CLion via CMake. This repo expands on the original example by demonstrating basic NtApi usage.
 
 This repository contains Sleepmask-VS, a simple Sleepmask example that can be used as a template to develop custom Sleepmask BOFs.
 Sleepmask-VS was built using the Beacon Object File Visual Studio template ([BOF-VS](https://github.com/Cobalt-Strike/bof-vs)).

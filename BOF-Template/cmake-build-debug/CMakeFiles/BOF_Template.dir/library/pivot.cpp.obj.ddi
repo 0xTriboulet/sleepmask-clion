@@ -5,7 +5,7 @@
         {
             "primary-output": "CMakeFiles\\BOF_Template.dir\\library\\pivot.cpp.obj",
             "outputs": [
-                "C:\\Users\\0xtriboulet\\Desktop\\MalDev\\6.SleepyTime\\sleepmask-clion\\BOF-Template\\cmake-build-debug\\vc140.pdb",
+                "C:\\Users\\0xtriboulet\\Desktop\\MalDev\\6.SleepyTime\\git\\sleepmask-clion\\BOF-Template\\cmake-build-debug\\vc140.pdb",
                 "CMakeFiles\\BOF_Template.dir\\library\\pivot.cpp.obj.ddi"
             ],
             "requires": []
