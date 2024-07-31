@@ -18,8 +18,6 @@ extern "C" {
 #include "beacon.h"
 #include "beacon_gate.h"
 #include "sleepmask-vs.h"
-#include "exec_ntapi.h"
-#include "set_ntapi.h"
 
 #include "library\debug.cpp"
 #include "library\utils.cpp"
@@ -112,8 +110,8 @@ int main(int argc, char* argv[]) {
     PVOID new_alloc = NULL;
     SIZE_T alloc_size = 0x1000;
 
-    SetNtApiAddr(VxSyscallTable.ntAllocateVirtualMemory.fnAddr);
-    ExecNtApi((HANDLE)-1, &new_alloc, NULL, &alloc_size, MEM_COMMIT | MEM_RESERVE, PAGE_EXECUTE_READWRITE);
+    bof::mock::syscall::SetNtApiAddr(VxSyscallTable.ntAllocateVirtualMemory.fnAddr);
+    bof::mock::syscall::ExecNtApi((HANDLE)-1, &new_alloc, NULL, &alloc_size, MEM_COMMIT | MEM_RESERVE, PAGE_EXECUTE_READWRITE);
 
     printf("ExecNtApi Allocation: 0x%p\n", new_alloc);
 

@@ -2,9 +2,9 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-
-	NTSTATUS ExecNtApi(...);
-
+    namespace bof::mock::syscall {
+        NTSTATUS ExecNtApi(...);
+    }
 #ifdef __cplusplus
 }
 #endif

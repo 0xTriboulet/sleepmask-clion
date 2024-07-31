@@ -8,9 +8,9 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-
-VOID SetNtApiAddr(PVOID ntapi_addr);
-
+    namespace bof::mock::syscall {
+        VOID SetNtApiAddr(PVOID ntapi_addr);
+    }
 #ifdef __cplusplus
 }
 #endif
